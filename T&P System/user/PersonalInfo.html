@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="th=device-th, initial-scale=1.0">
+    <link rel="stylesheet" href="Personalinfo.css">
+    <title>Personal Information</title>
+
+</head>
+
+<body>
+    <section>
+        <div id="navbar1">
+            <nav id="navbar">
+                <ul>
+                    <li class="item"><a href="PersonalInfo.html">PersonalInfo</a></li>
+                    <li class="item"><a href="Academics.html">Academic</a></li>
+                    <li class="item"><a href="ExActivi.html">Extra</a></li>
+                    <li class="item"><a href="feedbck.html">feedback</a></li>
+                </ul>
+                <div class="rightnav">
+                    <input type="text" name="search" id="search">
+                    <button class="btn2 btn-sm">Search</button>
+                </div>
+
+            </nav>
+    </section>
+
+
+    <section id="container">
+        <form action="Personalinfo.php" method="post">
+
+        </div>
+        <h1 style="text-align:center">PERSONAL INFORMATION</h1>
+        <fieldset id="one" style="border-radius:3px ; border: 3px solid black;">
+            <legend><label for="">
+                    <h4>Candidate's Name (As given in 10th Certificate)</h4>
+                </label></legend>
+            <div class="SSC_main">
+
+                <label for="">LastName : </label> <input type="text" name="LastName" id="LastName">
+                <label for="">FirstName :</label> <input type="text" name="FirstName" id="FirstName">
+                <label for="">FatherName : </label> <input type="text" name="FatherName" id="FatherName">
+                <label for="">StudentId : </label> <input type="text" name="StudentId" id="StudentId">
+        </fieldset>
+        </div>
+        <br>
+
+
+        <fieldset id="sec" style="border-radius:3px ; border: 3px solid black;">
+            <legend><label for="">
+                    <h4>Address</h4>
+                </label></legend>
+            <div>
+
+                <label>LocalAddress:<input type="text" name="LocalAddress" id="">
+                     PermanentAddress: <input type="text" name=" PermanentAddress" id="">
+
+
+        </fieldset>
+        </div>
+        <br><br>
+
+
+        <fieldset id="third" style="border-radius:3px ; border: 3px solid black;">
+            <legend><label for="">Other Information</label></legend>
+            <label for="">BloodGroup: <input type="text" name="BloodGroup" id=""> </label>
+            <label for="">MobileNumber: <input type="number" name="MobileNumber" id=""> </label>
+            <label for=""> Dateofbirth: <input type="date" name="Dateofbirth" id=""> </label>
+        </fieldset>
+        <button class="btn3 btn-sm" type="submit" value="submit">Submit</button>
+    </form>
+    </section>
+</body>
+
+</html>

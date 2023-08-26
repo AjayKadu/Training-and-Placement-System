@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Extra Curicular Activities</title>
+  <link rel="stylesheet" href="ExActivi.css" />
+</head>
+
+<body>
+  <section>
+    <div id="navbar1">
+      <nav id="navbar">
+
+        <ul>
+          <li class="item"><a href="PersonalInfo.html">PersonalInfo</a></li>
+          <li class="item"><a href="Academics.html">Academic</a></li>
+          <li class="item"><a href="ExActivi.html">Extra</a></li>
+          <li class="item"><a href="feedbck.html">feedback</a></li>
+        </ul>
+        <div class="rightnav">
+          <input type="text" name="search" id="search">
+          <button class="btn2 btn-sm">Search</button>
+        </div>
+
+      </nav>
+  </section>
+
+  <section id="container">
+<form action="Activity.php" method="post">
+    <div class="First_page">
+      <fieldset style="border-radius: 3px; border: 3px solid black">
+
+        <legend>
+          <h2><label for=""> Extra Curricular Activities</label></h2>
+        </legend>
+        <label for="">StudentId : </label> <input type="text" name="StudentId" id="StudentId">
+
+        <label for=""> Enter Field : </label>
+        <input type="text" name="ExtraField" id=""/>
+        <br/><br/>
+
+        <label for="">Certificates : </label>
+        <input type="file" name="ExtraCertificate" id=""/>
+
+      </fieldset>
+    </div>
+
+
+    <div class="Second_page">
+      <fieldset style="border-radius: 3px; border: 3px solid black">
+
+        <legend>
+          <h2><label for=""> Sports</label></h2>
+        </legend>
+
+        Enter the Sports Name : <input type="text" name="Sport" id=""/>
+        <br /><br/>
+
+        <label for="">Certificates : </label>
+        <input type="file" name="SportCertificate" id=""/>
+
+      </fieldset>
+    </div>
+
+
+    <div class="Third_page">
+      <fieldset style="border-radius: 3px; border: 3px solid black">
+
+        <legend>
+          <h2><label for=""> Internships</label></h2>
+        </legend>
+
+        Enter the Company Name : <input type="text" name="InternshipCompany" id=""/>
+        <br /><br />
+        Enter the Duration: <input type="number" name="InternshipDuration" id=""/>
+        <br /><br />
+
+        <label for="">Certificates : </label>
+        <input type="file" name="InternshipCertificate" id=""/>
+
+      </fieldset>
+    </div>
+
+
+    <div class="Fourth_page">
+      <fieldset style="border-radius: 3px; border: 3px solid black">
+
+        <legend>
+          <h2><label for="">Workshop / Courses </label></h2>
+        </legend>
+
+        Enter the Domain: <input type="text" name="WorkshopDomain" id=""/>
+        <br /><br />
+        Enter the Duration for Course / Workshop:
+        <input type="number" name="WorkshopDuration" id=""/>
+        <br /><br />
+
+        <label> Participation / Completion Certificates :</label>
+        <input type="file" name="WorkshopCertificate" id=""/>
+
+      </fieldset>
+    </div>
+    <button class="btn3 btn-sm" type="submit" value="submit">Submit</button>
+
+  </form>
+  </section>
+</body>
+
+</html>

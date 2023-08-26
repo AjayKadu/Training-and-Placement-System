@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Academics</title>
+  <link rel="stylesheet" href="academics.css">
+
+</head>
+
+<body>
+  <section id="nav">
+    <div id="navbar1">
+      <nav id="navbar">
+
+        <ul>
+          <li class="item"><a href="PersonalInfo.html">PersonalInfo</a></li>
+          <li class="item"><a href="Academics.html">Academic</a></li>
+          <li class="item"><a href="ExActivi.html">Extra</a></li>
+          <li class="item"><a href="feedbck.html">feedback</a></li>
+        </ul>
+        <div class="rightnav">
+          <input type="text" name="search" id="search">
+          <button class="btn2 btn-sm">Search</button>
+        </div>
+
+      </nav>
+  </section>
+
+  <section id="Academics">
+    <form action="Academics.php" method="post">
+      <h1 style="text-align:center">ACADEMICS</h1>
+      <fieldset id="one" style="border-radius:3px ; border: 3px solid black;">
+        <legend><label for="">
+            <h4>SSC</h4>
+          </label></legend>
+
+     
+        <div class="SSC_main">
+
+          <label for="">StudentId : </label>
+          <input type="text" name="StudentId" id="StudentId">
+
+          <label for="">SSCPassingYear</label>
+          <input type="text" name="SSCPassingYear" id="SSCPassingYear">
+          <br><br>
+          <label for="">SSCPercentage:</label>
+          <input type="number" name="SSCPercentage" id="SSCPercentage">
+          <br><br>
+
+          <label for="">Upload Marksheet :</label>
+          <input type="file" name="SSCMarksheet" id="SSCMarksheet">
+      </fieldset>
+      </div>
+      <br>
+      <fieldset id="sec" style="border-radius:3px ; border: 3px solid black;">
+        <legend><label for="">
+            <h4>HSC</h4>
+          </label></legend>
+        <div class="HSC_main">
+
+          <label for="">HSCPassingYear</label>
+          <input type="number" name="HSCPassingYear" id="HSCPassingYear">
+          <br><br>
+          <label for="">HSCPercentage:</label>
+          <input type="number" name="HSCPercentage" id="HSCPercentage">
+          <br><br>
+          <label for="">Upload Marksheet :</label>
+          <input type="file" name="HSCMarksheet" id="HSCMarksheet">
+      </fieldset>
+
+      </div>
+      <br><br>
+      <fieldset id="third" style="border-radius:3px ; border: 3px solid black;">
+        <legend>
+          <h4> <label for=""> Degree Qualifications</label></h4>
+        </legend>
+        <table>
+
+          <tr>
+            <th> Sr.</th><br>
+            <th> Semester(S/W) <br></th>
+            <th> Total marks</th>
+            <th> Outoff </th>
+            <th> CGPA </th>
+            <th> Percentage</th>
+            <th> Pass/Fail</th>
+            <th>Marksheet</th>
+          </tr>
+
+          <tr>
+            <th>1.</th>
+            <th> <input type="text" name="Sem1" id="Sem1"> </th>
+            <th> <input type="number" name="Totalmark1" id="Totalmark1"> </th>
+            <th> <input type="number" name="Obtain1" id="Obtain1"> </th>
+            <th> <input type="number" name="CGPA1" id="CGPA1"> </th>
+            <th> <input type="number" name="Percentage1" id="Percentage1"> </th>
+            <th> <input type="text" name="Result1" id="Result1"> </th>
+            <th> <input type="file" name="Marksheet1" placeholder="Upload" id="Marksheet1"> </th>
+          </tr>
+
+          <tr>
+            <th>2.</th>
+            <th> <input type="text" name="Sem2" id="Sem2"> </th>
+            <th> <input type="number" name="Totalmark2" id="Totalmark2"> </th>
+            <th> <input type="number" name="Obtain2" id="Obtain2"> </th>
+            <th> <input type="number" name="CGPA2" id="CGPA2"> </th>
+            <th> <input type="number" name="Percentage2" id="Percentage2"> </th>
+            <th> <input type="text" name="Result2" id="Result2"> </th>
+            <th> <input type="file" name="Marksheet2" placeholder="Upload" id="Marksheet2"> </th>
+          </tr>
+
+
+          <tr>
+            <th>3.</th>
+            <th> <input type="text" name="Sem3" id="Sem3"> </th>
+            <th> <input type="number" name="Totalmark3" id="Totalmark3"> </th>
+            <th> <input type="number" name="Obtain3" id="Obtain3"> </th>
+            <th> <input type="number" name="CGPA3" id="CGPA3"> </th>
+            <th> <input type="number" name="Percentage3" id="Percentage3"> </th>
+            <th> <input type="text" name="Result3" id="Result3"> </th>
+            <th> <input type="file" name="Marksheet3" placeholder="Upload" id="Marksheet3"> </th>
+          </tr>
+
+
+          <tr>
+            <th>4.</th>
+            <th> <input type="text" name="Sem4" id="Sem4"> </th>
+            <th> <input type="number" name="Totalmark4" id="Totalmark4"> </th>
+            <th> <input type="number" name="Obtain4" id="Obtain4"> </th>
+            <th> <input type="number" name="CGPA4" id="CGPA4"> </th>
+            <th> <input type="number" name="Percentage4" id="Percentage4"> </th>
+            <th> <input type="text" name="Result4" id="Result4"> </th>
+            <th> <input type="file" name="Marksheet4" placeholder="Upload" id="Marksheet4"> </th>
+          </tr>
+
+
+          <tr>
+            <th>5.</th>
+            <th> <input type="text" name="Sem5" id="Sem5"> </th>
+            <th> <input type="number" name="Totalmark5" id="Totalmark5"> </th>
+            <th> <input type="number" name="Obtain5" id="Obtain5"> </th>
+            <th> <input type="number" name="CGPA5" id="CGPA1"> </th>
+            <th> <input type="number" name="Percentage5" id="Percentage5"> </th>
+            <th> <input type="text" name="Result5" id="Result5"> </th>
+            <th> <input type="file" name="Marksheet5" placeholder="Upload" id="Marksheet5"> </th>
+          </tr>
+
+          <tr>
+            <th>6.</th>
+            <th> <input type="text" name="Sem6" id="Sem6"> </th>
+            <th> <input type="number" name="Totalmark6" id="Totalmark6"> </th>
+            <th> <input type="number" name="Obtain6" id="Obtain6"> </th>
+            <th> <input type="number" name="CGPA6" id="CGPA6"> </th>
+            <th> <input type="number" name="Percentage6" id="Percentage6"> </th>
+            <th> <input type="text" name="Result6" id="Result6"> </th>
+            <th> <input type="file" name="Marksheet6" placeholder="Upload" id="Marksheet6"> </th>
+          </tr>
+
+
+          <tr>
+            <th>7.</th>
+            <th> <input type="text" name="Sem7" id="Sem7"> </th>
+            <th> <input type="number" name="Totalmark7" id="Totalmark7"> </th>
+            <th> <input type="number" name="Obtain7" id="Obtain7"> </th>
+            <th> <input type="number" name="CGPA7" id="CGPA7"> </th>
+            <th> <input type="number" name="Percentage7" id="Percentage7"> </th>
+            <th> <input type="text" name="Result7" id="Result7"> </th>
+            <th> <input type="file" name="Marksheet7" placeholder="Upload" id="Marksheet7"> </th>
+          </tr>
+
+          <tr>
+            <th>8.</th>
+            <th> <input type="text" name="Sem8" id="Sem8"> </th>
+            <th> <input type="number" name="Totalmark8" id="Totalmark8"> </th>
+            <th> <input type="number" name="Obtain8" id="Obtain8"> </th>
+            <th> <input type="number" name="CGPA8" id="CGPA8"> </th>
+            <th> <input type="number" name="Percentage8" id="Percentage8"> </th>
+            <th> <input type="text" name="Result8" id="Result8"> </th>
+            <th> <input type="file" name="Marksheet8" placeholder="Upload" id="Marksheet8"> </th>
+          </tr>
+
+        </table>
+      </fieldset>
+      <button class="btn3 btn-sm" type="submit" value="submit">Submit</button>
+
+    </form>
+  </section>
+</body>
+
+</html>

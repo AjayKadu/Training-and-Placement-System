@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    font-family: 'Amaranth', sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    padding: 5px;
+    padding-left: 111px;
+}
+
+h1{
+    font-size: 32px;
+    padding: 10px;
+}
+
+hr{
+    padding: 10px;
+}
+
+.info input{
+    padding: 2px 20px;
+    margin: 0px 10px;
+    border: 2px solid black;
+}
+
+.info label {
+    padding: 0px 4px;
+    padding-left: 63px;
+}
+
+
+.info1 input{
+    padding: 2px 20px;
+    margin: 0px 10px;
+    border: 2px solid black;
+}
+
+.info1 label {
+    padding: 0px 4px;
+    padding-left: 63px;
+}
+
+.info1 textarea{
+    padding: 2px 20px;
+    margin: 0px 20px;
+    border: 2px solid black;
+}
+
